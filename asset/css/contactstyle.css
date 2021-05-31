@@ -1,0 +1,94 @@
+content{
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+content .content{
+    font-size: 40px; 
+    height: 70px;
+    color: #FD706B;
+    font-weight: bold;
+    margin-top: 2%;
+}
+
+content .map{
+    position: relative;
+}
+
+content .contact-container{
+    width: 57%;
+    height: 445px;
+    position: absolute;
+    margin-top: 27%;
+    background-color: white;
+}
+
+content .contact-container .contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+content .contact-container .main-name{
+    font-size: 20px;
+    color: #E54C38;
+    font-weight: bold;
+    padding-top: 30px;
+}
+
+content .contact-container .sub-name{
+    font-size: 20px;
+    color: #5A5769;
+}
+
+content .contact-container hr {
+    width: 381px;
+    margin-top: 10px;
+    margin-bottom: 45px;
+}
+
+.contact-container .address{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.contact-container .address span{
+    padding-left: 25px;
+}
+
+.contact-container .address .address1{
+    display: flex;
+    align-items: center;
+    padding-bottom: 30px;
+}
+.contact-container .address .address2{
+    display: flex;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.contact-container .address .social{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.address .social .social1{
+    padding-right: 25px;
+    width: 55%;
+}
+
+.address .social .social2 a{
+    text-decoration: none;
+    color: black;
+}
+
+.sub-social{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}

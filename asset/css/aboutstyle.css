@@ -1,0 +1,151 @@
+/* Banner */
+.banner{
+    width: 100%;
+    height: auto;
+}
+
+.banner-container{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.banner .banner-img{
+    width: 100%;
+    height: auto;
+}
+
+.banner .banner-img img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.banner .banner-tittle {
+    width: 50%;
+    text-align: center;
+    font-size: 150px;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+}
+/* !Banner-end */
+/* Content */
+content{
+    width: 100%;
+    height: auto;
+}
+
+.content-container{
+    width: 57%;
+    margin: 60px auto 125px;
+}
+
+.content-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-info .content-info--tittle{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: #FD706B;
+}
+
+.content-info .content-info--tittle hr{
+    width: 260px;
+    margin-bottom: 35px;
+    margin-left: 70px;
+}
+
+.content-info .content-info--main{
+    width: 80%;
+    text-align: justify;
+    margin-bottom: 70px;
+    font-size: 16px;
+    color: #5A5769;
+}
+
+.content-info .content-info--boxes{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 35px;
+    margin-bottom: 30px;
+}
+
+.content-info--boxes .box-item{
+    width: 26%;
+}
+
+.content-info--boxes .box-item .box-tittle{
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: #FD706B;
+    padding-bottom: 20px;
+}
+
+.content-info--boxes .box-item .box-tittle span{
+    padding-left: 10px;
+}
+
+.content-info--boxes .box-item .box-content{
+    text-align: justify;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.content-container .content-legal{
+    width: 100%;
+}
+
+.content-legal .legal-button{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content-legal .legal-button button{
+    width: 257px;
+    height: 64px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #5A5769;
+    border: 0.5 #5A5769;
+    background-color: transparent;
+    border-radius: 10px;
+    margin-bottom: 35px;
+}
+
+.content-legal .cot1{
+    width: 200px;
+    padding-bottom: 15px;
+    color: #5A5769;
+}
+
+.content-legal .cot2{
+    padding-bottom: 15px;
+    font-weight: bold;
+}
+
+.content-legal .style1{
+    color: #E54C38;
+}
+
+.content-legal .style2{
+    background-color: #E54C38;
+    border-radius: 7px;
+    color: white;
+    padding: 10px 15px;
+}
+
+.content-legal .style3{
+    padding-top: 10px;
+}

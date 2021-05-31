@@ -1,0 +1,145 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,200,300,800);
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: roboto;
+}
+
+a{
+	text-decoration: none;
+}
+
+ul li{
+	list-style-type: none;
+	display: inline;
+}
+
+ul li a {
+	text-decoration: none;
+	color: black;
+}
+
+ul li button {
+	width: 125px;
+	height: 45px;
+	font-size: 16px;
+	border-radius: 10px;
+	background-color: transparent;
+}
+
+ul li button a{
+	padding: 10px 33px;
+}
+
+header {
+	max-width: 100%;
+	box-shadow: 0px 1px 5px gray;
+}
+
+header .header-container{
+	max-width: 86%;
+	height: 110px;
+	margin: 0 auto;
+	font-size: 16px;
+}
+
+header .header-container .header-logo-nav{
+	width: 83%;
+	height: 110px;
+	display: flex;
+	margin: 0 auto;
+}
+
+.header-container .header-logo-nav .header-logo{
+	width: 16%;
+	display: flex;
+	align-items: center;
+}
+
+.header-logo-nav nav{
+	width: 84%;
+	height: 110px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+.header-logo-nav .header-navbar ul li{
+	margin: 40px;
+}
+
+/* Footer */
+footer{
+	width: 100%;
+	height: 413px;
+	background-color: #FD706B;
+}
+
+.footer{
+	width: 86%;
+	height: auto;
+	margin: 0 auto;
+	display: flex;
+	justify-content:center;
+}
+
+.footer-container{
+	width: 83%;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	margin-top: 40px;
+}
+
+.footer-container .footer-info{
+	width: 30%;
+	height: auto;
+	margin-right: 5%;
+}
+
+.footer-container .footer-service{
+	width: 20%;
+	height: auto;
+	margin-right: 5%;
+}
+.footer-container .footer-product{
+	width: 20%;
+	height: auto;
+}
+
+.tittle{
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+}
+
+.tittle hr{
+	width: 122px ;
+	margin-bottom: 20px;
+}
+
+.footer-item{
+	display: flex;
+	align-items: center;
+	padding-bottom: 15px;
+}
+
+.footer-item span{
+	color: white;
+}
+
+.footer-item span a{
+	color: white;
+}
+
+.copyright{
+	width: 100%;
+	height: 49px;
+	text-align: center;
+	font-size: 14px;
+	font-style: italic;
+	color: white;
+	display: flex;
+	align-items: flex-end;
+    justify-content: center;
+}
