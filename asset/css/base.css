@@ -37,6 +37,10 @@ header {
 	background-color: white;
 }
 
+header a{
+	color: black;
+}
+
 header .header-container{
 	max-width: 86%;
 	height: 110px;
