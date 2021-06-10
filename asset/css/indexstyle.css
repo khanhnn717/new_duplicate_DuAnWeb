@@ -47,6 +47,7 @@
     color: white;
     background-color: #E54C38;
     border-radius: 7px;
+    cursor: pointer;
 }
 
 .banner .banner-navbar {
@@ -79,7 +80,7 @@ content .content-container {
 
 .white-tittle {
     display: flex;
-    padding-top: 75px;
+    padding-top: 5%;
     justify-content: center;
     height: auto;
     margin-bottom: 40px;
@@ -191,7 +192,7 @@ content .content-container {
     height: 120px;
     display: flex;
     flex-direction: row;
-    margin-bottom: 40px;
+    margin-bottom: 3%;
     align-items: center;
 }
 
@@ -200,6 +201,71 @@ content .content-container {
     font-weight: bold;
     color: #FD706B;
     padding-left: 20px;
+}
+
+
+/* Videos */
+
+#video-1 {
+    display: block;
+}
+
+#video-2 {
+    display: none;
+}
+
+#video-3 {
+    display: none;
+}
+
+#video-4 {
+    display: none;
+}
+
+#video-5 {
+    display: none;
+}
+
+section {
+    width: 65%;
+    height: 65%;
+    position: relative;
+}
+
+section iframe {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+section .navigation {
+    position: absolute;
+    bottom: -20%;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section .navigation li {
+    cursor: pointer;
+    margin-right: 5%;
+    border-radius: 4px;
+    background: #FD706B;
+    padding: 3px 3px 0;
+    opacity: 0.9;
+    transition: 0.5s;
+}
+
+section .navigation li img {
+    width: 150px;
+    height: 100px;
+    transition: 0.55s;
 }
 
 
@@ -214,6 +280,24 @@ content .content-container {
     background-color: #FD706B;
 }
 
+.course-container {
+    width: 100%;
+    height: 65%;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.course-container .course-container--item {
+    width: 60%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
 
 /* Customers */
 
@@ -226,9 +310,9 @@ content .content-container {
     align-items: center;
 }
 
-.content-customers--container .content-customers {
-    margin-bottom: 20px;
-}
-
 
 /* !Customers-end */
+
+.ytp-pause-overlay {
+    display: none;
+}

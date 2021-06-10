@@ -383,38 +383,8 @@ body {
 
 .tittle-and-button p {
     font-size: 25px;
-    padding-bottom: 15px;
-}
-
-.button {
-    display: flex;
-    align-items: center;
-}
-
-.video-play {
-    display: flex;
-    align-items: center;
-    width: auto;
-}
-
-.video-play img {
-    right: 26%;
-}
-
-.tittle-and-button button {
-    width: 186px;
-    height: 50px;
-    background-color: #FD706B;
-    color: white;
-    border-radius: 7px;
-    font-size: 20px;
-    margin-right: 15px;
-}
-
-.tittle-and-button a {
-    color: #FD706B;
-    font-size: 20px;
-    font-weight: bold;
+    padding: 15px;
+    border: 3px dashed #FD706B;
 }
 
 .demo-board {
@@ -626,27 +596,8 @@ body {
 
 .tittleandbutton p {
     font-size: 25px;
-    padding-bottom: 15px;
-}
-
-.tittleandbutton button {
-    width: 186px;
-    height: 50px;
-    background-color: #FD706B;
-    color: white;
-    border-radius: 7px;
-    font-size: 20px;
-    margin-right: 15px;
-}
-
-.tittleandbutton a {
-    color: #FD706B;
-    font-size: 20px;
-    font-weight: bold;
-}
-
-.tittleandbutton a span {
-    margin-right: 10px;
+    padding: 15px;
+    border: 3px dashed #FD706B;
 }
 
 .line-flex {

@@ -20,9 +20,9 @@ content .map {
 
 content .contact-container {
     width: 57%;
-    height: 445px;
+    height: 400px;
     position: absolute;
-    margin-top: 27%;
+    margin-top: 25%;
     background-color: white;
 }
 
@@ -63,13 +63,13 @@ content .contact-container hr {
 .contact-container .address .address1 {
     display: flex;
     align-items: center;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
 }
 
 .contact-container .address .address2 {
     display: flex;
     align-items: center;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
 }
 
 .contact-container .address .social {
@@ -91,5 +91,5 @@ content .contact-container hr {
 .sub-social {
     display: flex;
     align-items: center;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }

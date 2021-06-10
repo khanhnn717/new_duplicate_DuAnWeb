@@ -1,0 +1,55 @@
+.button-4 {
+    position: relative;
+}
+
+a.button-4.four:before,
+a.button-4.four:after {
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    border-bottom: 3px solid #FD706B;
+    transition: 0.5s ease;
+}
+
+a.button-4.four:before {
+    bottom: -3px;
+    right: 50%;
+}
+
+a.button-4.four:after {
+    bottom: -3px;
+    left: 50%;
+}
+
+a.button-4.four:hover:after,
+a.button-4.four:hover:before {
+    width: 50%;
+    transition: 0.35s ease;
+}
+
+ul li .button-3:hover {
+    background-color: #FD706B;
+    transition: 1s ease;
+}
+
+ul li button a:hover {
+    font-weight: bold;
+    color: white;
+}
+
+#contact-current {
+    background-color: #FD706B;
+}
+
+#contact-current a {
+    font-weight: bold;
+    color: white;
+}
+
+#current {
+    content: '';
+    width: 80px;
+    height: 100%;
+    border-bottom: 3px solid #FD706B;
+}

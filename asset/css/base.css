@@ -15,10 +15,6 @@ ul li {
     display: inline;
 }
 
-ul li a {
-    text-decoration: none;
-}
-
 ul li button {
     width: 125px;
     height: 45px;
