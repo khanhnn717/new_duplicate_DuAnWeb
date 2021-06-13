@@ -1,3 +1,59 @@
+/*  */
+
+.infobutton:active {
+    background-color: #58257b;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+
+/* Services */
+
+.box-services--1:hover {
+    width: 353px;
+    height: 541px;
+}
+
+.box-services--2:hover {
+    width: 386px;
+    height: 593px;
+}
+
+.box-services--3:hover {
+    width: 353px;
+    height: 541px;
+}
+
+.box-item:hover>#img1 {
+    width: 208px;
+    height: 161px;
+}
+
+.box-item:hover>#img2 {
+    width: 202px;
+    height: 202px;
+}
+
+.box-item:hover>#img3 {
+    width: 161px;
+    height: 161px;
+}
+
+
+/* Product */
+
+section .navigation li:hover {
+    opacity: 1;
+}
+
+section .navigation li img:hover {
+    width: 230px;
+    height: 150px;
+}
+
+
+/* Courses */
+
 figure.snip0016 {
     font-family: 'Raleway', Arial, sans-serif;
     color: #fff;
@@ -59,7 +115,6 @@ figure.snip0016 p {
 }
 
 figure.snip0016 h2 {
-    word-spacing: -0.15em;
     font-weight: 300;
     text-transform: uppercase;
     -webkit-transform: translate3d(30%, 0%, 0);
@@ -115,16 +170,4 @@ figure.snip0016:hover figcaption::before {
     opacity: 1;
     -webkit-transition-delay: 0s;
     transition-delay: 0s;
-}
-
-
-/* Product */
-
-section .navigation li:hover {
-    opacity: 1;
-}
-
-section .navigation li img:hover {
-    width: 200px;
-    height: 150px;
 }

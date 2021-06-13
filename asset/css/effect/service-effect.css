@@ -1,0 +1,42 @@
+#service-box--1:hover {
+    width: 384px;
+    height: 305px;
+}
+
+#service-box--1:hover>img {
+    width: 191px;
+    height: 151px;
+}
+
+#service-box--2:hover {
+    width: 384px;
+    height: 305px;
+}
+
+#service-box--2:hover>img {
+    width: 151px;
+    height: 151px;
+}
+
+#service-box--3:hover {
+    width: 384px;
+    height: 305px;
+}
+
+#service-box--3:hover>img {
+    width: 151px;
+    height: 151px;
+}
+
+.box-item:hover {
+    border-radius: 50%;
+    opacity: 1;
+}
+
+.box-item:hover>p {
+    font-size: 16px;
+}
+
+.box-item:hover>.underline {
+    width: 40%;
+}

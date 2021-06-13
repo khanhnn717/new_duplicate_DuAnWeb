@@ -15,7 +15,7 @@
 }
 
 .box-item #underline-1 {
-    display: block;
+    display: none;
 }
 
 .box-item #underline-2 {
@@ -161,6 +161,11 @@ body {
     width: 20px;
     height: 210px;
     background-color: #FD706B;
+}
+
+#product-box--1 {
+    width: 20%;
+    height: auto;
 }
 
 .box-item {
