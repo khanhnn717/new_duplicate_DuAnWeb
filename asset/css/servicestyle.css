@@ -90,11 +90,13 @@
 .banner-container .banner-content table {
     border-top: 4px solid #ACACAD;
     margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
 }
 
 .banner-container .banner-content .content {
-    font-size: 20px;
-    text-align: justify;
+    font-size: 19.5px;
+    text-align: center;
 }
 
 .service-box {
@@ -340,6 +342,12 @@ content {
 
 .bodycontent-1--second .photo .main-photo {
     margin-bottom: 140px;
+    display: flex;
+    justify-content: center;
+}
+
+.photo .main-photo img {
+    width: 90%;
 }
 
 .bodycontent-1--second .photo .sub-photo {

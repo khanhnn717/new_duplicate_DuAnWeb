@@ -2,31 +2,31 @@
 
 .header-logo img:hover {
     animation-name: spin;
-    animation-duration: 2s;
+    animation-duration: 3s;
     animation-iteration-count: infinite;
     animation-timing-function: ease;
 }
 
 @keyframes spin {
     0% {
-        transform: perspective(120px) rotateX(0deg) rotateY(0deg);
-        -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg)
+        transform: perspective(120px) rotateX(0deg) rotateY(-360deg);
+        -webkit-transform: perspective(120px) rotateX(0deg) rotateY(-360deg)
     }
     /* 25% {
         transform: perspective(120px) rotateX(0deg) rotateY(360deg);
         -webkit-transform: perspective(120px) rotateX(0deg) rotateY(360deg)
-    }
-    50% {
-        transform: perspective(120px) rotateX(0deg) rotateY(0deg);
-        -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg)
-    }
-    75% {
+    } */
+    /* 50% {
+        transform: perspective(120px) rotateX(0deg) rotateY(360deg);
+        -webkit-transform: perspective(120px) rotateX(0deg) rotateY(360deg)
+    } */
+    /* 75% {
         transform: perspective(120px) rotateX(-180deg) rotateY(-360deg);
         -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-360deg)
     } */
     100% {
-        transform: perspective(120px) rotateX(0deg) rotateY(360deg);
-        -webkit-transform: perspective(120px) rotateX(0deg) rotateY(360deg)
+        transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+        -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg)
     }
 }
 

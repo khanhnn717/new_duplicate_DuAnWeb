@@ -29,14 +29,14 @@
 }
 
 .box-item:hover {
-    border-radius: 50%;
+    border-radius: 8px;
     opacity: 1;
 }
 
 .box-item:hover>p {
-    font-size: 16px;
+    font-size: 22px;
 }
 
 .box-item:hover>.underline {
-    width: 40%;
+    width: 80%;
 }

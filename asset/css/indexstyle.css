@@ -18,7 +18,7 @@
 .para .compname p {
     font-size: 60px;
     font-weight: bold;
-    color: red;
+    color: #FD706B;
 }
 
 .banner .banner-img {
@@ -41,15 +41,10 @@
 }
 
 .para .compinfo .infobutton {
-    height: 45px;
-    width: 195px;
+    width: 25%;
+    height: auto;
     margin-top: 20px;
-    color: white;
-    background-color: #E54C38;
-    border-radius: 7px;
     cursor: pointer;
-    border: 1px solid #E54C38;
-    box-shadow: 3px 3px gray;
 }
 
 .banner .banner-navbar {
@@ -238,8 +233,8 @@ content .content-container {
 }
 
 section {
-    width: 65%;
-    height: 65%;
+    width: 50%;
+    height: 50%;
     position: relative;
 }
 
@@ -254,18 +249,19 @@ section iframe {
 
 section .navigation {
     position: absolute;
-    bottom: -20%;
+    width: 100%;
+    bottom: -25%;
     left: 50%;
     transform: translate(-50%);
     z-index: 100;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
 section .navigation li {
     cursor: pointer;
-    margin-right: 5%;
+    /* margin-right: 5%; */
     border-radius: 4px;
     background: #FD706B;
     padding: 3px 3px 0;
