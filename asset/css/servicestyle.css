@@ -490,20 +490,168 @@ content {
     background-color: #959595;
 }
 
+
+/*  */
+
 .bodycontent-2--third {
     width: 100%;
-    height: 1110px;
+    height: auto;
+}
+
+.bodycontent-2--third .horizon-line {
+    width: 100%;
+    height: 12px;
+    background-color: #FD706B;
+    margin-bottom: 120px;
+}
+
+.third-container {
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.special {
+    padding-bottom: 30%;
+}
+
+.line-bettween {
+    width: 45%;
+    height: 3px;
+    margin: 90px auto 0;
+    background-color: #959595;
+}
+
+.third-container .third-container--separate {
+    width: 100%;
+    height: auto;
     display: flex;
-    background-color: #F6F6F6;
+    justify-content: space-between;
+}
+
+.third-container .third-container--separate .side {
+    width: 49%;
+    height: auto;
+    display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: flex-end;
+}
+
+.third-container .third-container--separate .left-side {
+    align-items: flex-end;
+}
+
+.third-container .third-container--separate .right-side {
+    align-items: flex-start;
+}
+
+.third-container--separate img {
+    width: 100%;
+    height: auto;
+    margin-top: 80px;
+}
+
+.third-tittle {
+    width: 100%;
+    font-size: 30px;
+    color: #FD706B;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.third-param {
+    width: 100%;
+    text-align: justify;
+    margin-top: 50px;
+    color: black;
+}
+
+.img-tittle {
+    font-weight: bold;
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+
+.img-content {
+    font-size: 18px;
+    line-height: 35px;
+}
+
+
+/*  */
+
+.third-container--non_separate {
+    width: 100%;
+    height: auto;
+    margin-top: 90px;
+}
+
+#medical .img-tittle {
+    text-align: center;
+}
+
+.medical-box {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.medical-left {
+    width: 50%;
+    height: auto;
+}
+
+.medical-box img {
+    width: 100%;
+    height: auto;
+    padding-top: 30px;
+}
+
+.medical-right {
+    width: 45%;
+    height: auto;
+}
+
+
+/*  */
+
+.third-container--general {
+    width: 100%;
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.third-container--general .army-box {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
 }
 
-.bodycontent-2--third img {
-    width: 1577px;
-    height: 345px;
+.army-side {
+    width: 48%;
+    margin: 50px auto;
 }
+
+.army-side img {
+    width: 100%;
+    height: auto;
+}
+
+.army-param {
+    width: 55%;
+    text-align: center;
+    margin: 0 auto;
+    color: black;
+}
+
+
+/*  */
 
 .bodycontent-3 .text-box {
     width: 100%;
@@ -512,6 +660,12 @@ content {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 75px;
+}
+
+.bodycontent-3 .steps-img {
+    display: flex;
+    justify-content: center;
+    width: 60%;
 }
 
 .bodycontent-3 .text-box .left-right--box {

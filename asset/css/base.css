@@ -5,6 +5,12 @@
     font-family: roboto;
 }
 
+
+/* ::-webkit-scrollbar {
+    width: 50px;
+    background-color: aqua;
+} */
+
 a {
     text-decoration: none;
     color: #5A5769;
@@ -22,6 +28,7 @@ ul li button {
     border-radius: 10px;
     background-color: transparent;
     border: 1px solid gray;
+    transition: 1s ease;
 }
 
 ul li button a {
