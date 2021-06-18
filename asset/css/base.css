@@ -99,7 +99,7 @@ header .header-container .header-logo-nav {
     display: block;
 }
 
-.dropdown-content a:hover {
+.dropdown-content a:active {
     background-color: #f1f1f1
 }
 
