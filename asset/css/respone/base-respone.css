@@ -20,7 +20,13 @@
     }
     .header-logo-nav nav {
         width: 35%;
+    }
+    .header-navbar {
         display: none;
+    }
+    .dropdown {
+        display: inline-block;
+        width: 69px;
     }
     .footer-container {
         width: 90%;
