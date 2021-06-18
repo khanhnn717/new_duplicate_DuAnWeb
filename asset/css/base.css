@@ -78,7 +78,7 @@ header .header-container .header-logo-nav {
 
 footer {
     width: 100%;
-    height: 413px;
+    height: auto;
     background-color: #FD706B;
 }
 

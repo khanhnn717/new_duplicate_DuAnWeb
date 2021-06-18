@@ -20,7 +20,7 @@ content .map {
 
 content .contact-container {
     width: 57%;
-    height: 44.2%;
+    height: 41.2%;
     position: absolute;
     margin-top: 25%;
     background-color: white;
@@ -92,4 +92,10 @@ content .contact-container hr {
     display: flex;
     align-items: center;
     margin-bottom: 20px;
+}
+
+.contact-footer {
+    width: 100%;
+    height: 15.5rem;
+    background-color: #FD706B;
 }
