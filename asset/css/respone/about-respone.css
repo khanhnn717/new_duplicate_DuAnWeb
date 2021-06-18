@@ -1,0 +1,80 @@
+@media only screen and (min-device-width: 320px) and (max-device-width: 739px) and (-webkit-min-device-pixel-ratio: 2) {
+    content .content-container {
+        width: 90%;
+    }
+    .banner .banner-container .banner-tittle {
+        font-size: 25px;
+    }
+    .content-container .content-info .content-info--tittle {
+        font-size: 20px;
+    }
+    .content-container .content-info .content-info--tittle hr {
+        width: 130px;
+        margin-left: 30px;
+    }
+    .content-container .content-info .content-info--main {
+        width: 90%;
+    }
+    .content-container .content-info .content-info--img img {
+        width: 100%;
+        height: auto;
+    }
+    .content-info .content-info--boxes {
+        flex-direction: column;
+    }
+    .content-info--boxes .box-item {
+        width: 95%;
+        margin-top: 25px;
+    }
+}
+
+@media only screen and (min-width: 740px) and (max-width: 1023px) and (-webkit-min-device-pixel-ratio: 2) {
+    content .content-container {
+        width: 90%;
+    }
+    .banner .banner-container .banner-tittle {
+        font-size: 60px;
+    }
+    .content-container .content-info .content-info--tittle {
+        font-size: 30px;
+    }
+    .content-container .content-info .content-info--tittle hr {
+        width: 230px;
+        margin-left: 30px;
+    }
+    .content-container .content-info .content-info--img img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1439px) and (-webkit-min-device-pixel-ratio: 2) {
+    .banner .banner-container .banner-tittle {
+        font-size: 80px;
+    }
+    content .content-container {
+        width: 90%;
+    }
+    .content-container .content-info .content-info--img img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (-webkit-device-pixel-ratio: 1.25) {
+    content .content-container {
+        zoom: 1;
+    }
+}
+
+@media (-webkit-device-pixel-ratio: 1.5) {
+    content .content-container {
+        zoom: 1;
+    }
+}
+
+@media (-webkit-device-pixel-ratio: 1.75) {
+    content .content-container {
+        zoom: 1.2;
+    }
+}
