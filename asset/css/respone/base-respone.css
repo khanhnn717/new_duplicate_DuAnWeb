@@ -126,7 +126,9 @@
     }
 }
 
-@media (-webkit-min-device-pixel-ratio: 1.25) {
+
+/* @media only screen and (max-width: 1440px),
+(min-width:1300px) and (-webkit-device-pixel-ratio: 1.25) {
     * {
         zoom: 0.96;
     }
@@ -141,7 +143,8 @@
     }
 }
 
-@media (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (max-width: 1299px),
+(min-width:1100px) and (-webkit-device-pixel-ratio: 1.5) {
     * {
         zoom: 0.93;
     }
@@ -156,7 +159,8 @@
     }
 }
 
-@media (-webkit-min-device-pixel-ratio: 1.75) {
+@media only screen and (max-width: 1099px),
+(min-width:980px) and (-webkit-device-pixel-ratio: 1.75) {
     * {
         zoom: 0.9;
     }
@@ -169,4 +173,4 @@
         height: 55px;
         font-size: 26px;
     }
-}
+} */

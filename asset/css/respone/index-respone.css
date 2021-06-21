@@ -387,7 +387,11 @@
     }
 }
 
-@media (-webkit-device-pixel-ratio: 1.25) {
+
+/* @media (-webkit-min-device-pixel-ratio: 1.25) {
+    .para .compinfo {
+        width: 53%;
+    }
     .box-item .main-service--tittle {
         font-size: 24px;
     }
@@ -399,7 +403,7 @@
     }
 }
 
-@media (-webkit-device-pixel-ratio: 1.5) {
+@media (-webkit-min-device-pixel-ratio: 1.5) {
     .box-item .main-service--tittle {
         font-size: 28px;
     }
@@ -411,7 +415,7 @@
     }
 }
 
-@media (-webkit-device-pixel-ratio: 1.75) {
+@media (-webkit-min-device-pixel-ratio: 1.75) {
     .box-item .main-service--tittle {
         font-size: 32px;
     }
@@ -421,4 +425,4 @@
     .box-item .main-service--content {
         width: 90%;
     }
-}
+} */

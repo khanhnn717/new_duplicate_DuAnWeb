@@ -8,8 +8,8 @@
     }
     content .contact-container {
         width: 90%;
-        top: 50%;
-        height: 90%;
+        top: 40%;
+        height: 60%;
     }
     .contact-container .contact {
         width: 90%;
@@ -36,8 +36,8 @@
     }
     content .contact-container {
         width: 90%;
-        top: 76%;
-        height: 75%;
+        top: 58%;
+        height: 50%;
     }
     body .contact-footer {
         height: 23.5rem;
@@ -54,8 +54,8 @@
     }
     content .contact-container {
         width: 90%;
-        top: 82%;
-        height: 60%;
+        top: 60%;
+        height: 45%;
     }
     .contact-container .contact {
         width: 90%;
@@ -72,29 +72,53 @@
     }
 }
 
-@media (-webkit-min-device-pixel-ratio: 1.25) {
-    content .map {
-        zoom: 0.8;
-    }
+
+/* @media only screen and (max-width: 1440px),
+(min-width:1300px) and (-webkit-device-pixel-ratio: 1.25) {
     content .contact-container {
-        top: 65%;
+        top: 63%;
+    }
+    body .contact-footer {
+        height: 10rem;
     }
 }
 
-@media (-webkit-min-device-pixel-ratio: 1.5) {
-    content .map {
-        zoom: 0.7;
-    }
+@media only screen and (max-width: 1299px),
+(min-width:1100px) and (-webkit-device-pixel-ratio: 1.5) {
     content .contact-container {
-        top: 66%;
+        top: 85%;
+        font-size: 20px;
+    }
+    content .contact-container .main-name {
+        font-size: 30px;
+    }
+    content .contact-container .address .social {
+        font-size: 20px;
+    }
+    content .contact-container .sub-name {
+        font-size: 24px;
+    }
+    body .contact-footer {
+        height: 15rem;
     }
 }
 
-@media (-webkit-min-device-pixel-ratio: 1.75) {
-    content .map {
-        zoom: 0.6;
-    }
+@media only screen and (max-width: 1099px),
+(min-width:980px) and (-webkit-device-pixel-ratio: 1.75) {
     content .contact-container {
-        top: 65%;
+        top: 85%;
+        font-size: 20px;
     }
-}
+    content .contact-container .main-name {
+        font-size: 30px;
+    }
+    content .contact-container .address .social {
+        font-size: 20px;
+    }
+    content .contact-container .sub-name {
+        font-size: 24px;
+    }
+    body .contact-footer {
+        height: 13rem;
+    }
+} */
