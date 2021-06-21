@@ -10,6 +10,7 @@
         width: 90%;
         top: 350px;
         height: 550px;
+        position: unset;
     }
     .contact-container .contact {
         width: 90%;
@@ -26,7 +27,7 @@
         align-items: flex-start;
     }
     body .contact-footer {
-        height: 37.5rem;
+        display: none;
     }
 }
 
