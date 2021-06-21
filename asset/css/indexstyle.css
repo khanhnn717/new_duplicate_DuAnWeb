@@ -10,13 +10,14 @@
     position: absolute;
 }
 
-.banner-container .para {
+.para {
     width: 72%;
     margin: 7% auto 0;
 }
 
-.para .compname p {
-    font-size: 60px;
+.compname p {
+    width: 75%;
+    font-size: 55px;
     font-weight: bold;
     color: #FD706B;
 }
@@ -28,7 +29,7 @@
     justify-content: flex-end;
 }
 
-.banner-container .para .compinfo {
+.para .compinfo {
     width: 55%;
     text-align: justify;
     font-size: 20px;
@@ -36,7 +37,7 @@
     margin-top: 20px;
 }
 
-.para .compinfo .infobutton {
+.compinfo .infobutton {
     width: 25%;
     height: auto;
     margin-top: 20px;
@@ -77,6 +78,7 @@ content .content-container {
     justify-content: center;
     height: auto;
     margin-bottom: 40px;
+    align-items: center;
 }
 
 .white-tittle span {
@@ -196,6 +198,7 @@ content .content-container {
     flex-direction: row;
     margin-bottom: 3%;
     align-items: center;
+    justify-content: center;
 }
 
 .red-tittle span {
@@ -257,7 +260,6 @@ section .navigation {
 
 section .navigation li {
     cursor: pointer;
-    /* margin-right: 5%; */
     border-radius: 4px;
     background: #FD706B;
     padding: 3px 3px 0;
@@ -295,7 +297,7 @@ section .navigation li img {
 }
 
 .course-container .course-container--item {
-    width: 60%;
+    width: 100%;
     height: auto;
     display: flex;
     align-items: center;

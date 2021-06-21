@@ -8,47 +8,116 @@
 */
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 739px) and (-webkit-min-device-pixel-ratio: 2) {
+    .banner {
+        width: 100%;
+    }
+    .banner .banner-container {
+        width: 100%;
+    }
     .banner .banner-img img {
         width: 45%;
         height: 45%;
     }
     .para .compname p {
-        font-size: 35px;
+        font-size: 12px;
     }
     .banner-container .para {
-        margin-left: 5%;
+        margin-left: 3%;
+        width: 66%;
     }
     .banner-container .para .compinfo {
-        width: 60%;
-        font-size: 18px;
+        width: 72%;
+        font-size: 8px;
+        line-height: normal;
+        margin-top: 3%;
+    }
+    .content-container .content-services--container {
+        height: 550px;
+    }
+    .content-services--container .white-tittle {
+        width: 95%;
+        margin: 0 auto 25px;
+    }
+    .white-tittle img {
+        width: 45px;
+        height: auto;
+    }
+    .white-tittle span {
+        font-size: 14px;
+        text-align: center;
     }
     .content-services--container .boxes-services {
         width: 100%;
+        height: 70%;
     }
     .boxes-services .box-services--1 {
-        width: 90%;
+        width: 30%;
+        height: 90%;
     }
     .boxes-services .box-services--2 {
-        width: 100%;
-        margin: 0 25px;
+        width: 30%;
+        height: 95%;
+        margin: 0 5px;
     }
     .box-item .box-content {
         width: 90%;
     }
     .box-item .main-service--tittle {
-        font-size: 20px;
+        font-size: 14px;
     }
     .box-item .main-service--content {
-        font-size: 18px;
+        font-size: 10px;
+        line-height: normal;
     }
     .boxes-services .box-services--3 {
-        width: 90%;
+        width: 30%;
+        height: 90%;
+    }
+    .boxes-services .box-item img {
+        margin-bottom: 20px;
+    }
+    .boxes-services .box-item #img1 {
+        width: 80%;
+        height: auto;
+    }
+    .boxes-services .box-item #img2 {
+        width: 80%;
+        height: auto;
+    }
+    .boxes-services .box-item #img3 {
+        width: 80%;
+        height: auto;
+    }
+    .red-tittle {
+        width: 100%;
+    }
+    .red-tittle span {
+        font-size: 14px;
+    }
+    .red-tittle img {
+        width: 45px;
+        height: auto;
     }
     .customers-list img {
         width: 100%;
     }
-    figure.snip0016 {
-        max-height: 169px;
+    .content-courses--container {
+        padding-bottom: 70px;
+    }
+    .course-container .for-pc {
+        display: none;
+    }
+    .course-container .course-container--item {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .course-container .for-mobile {
+        display: block;
+    }
+    .for-mobile figure.snip0016 {
+        max-width: 160px;
+        min-width: 140px;
+        max-height: 115px;
     }
     figure.snip0016 h2 {
         font-weight: bold;
@@ -58,15 +127,58 @@
         text-align: justify;
         font-size: 10px;
     }
+    .content-products--container {
+        height: 500px;
+    }
     section {
         width: 70%;
     }
     section .navigation {
-        width: 140%;
+        width: 120%;
+        bottom: -30%;
+        height: 20%;
+    }
+    section .navigation li {
+        width: 20%;
+        height: 100%;
+        padding-bottom: 3px;
+    }
+    section .navigation li img {
+        width: 100%;
+        height: 100%;
+    }
+    section .navigation li img:hover {
+        width: 100%;
+        height: 100%;
     }
     .content-customers--container {
         width: 95%;
         margin: 0 auto;
+        padding-bottom: 70px;
+    }
+}
+
+@media only screen and (min-device-width: 520px) and (max-device-width: 739px) and (-webkit-min-device-pixel-ratio: 2) {
+    .para .compname p {
+        font-size: 20px;
+    }
+    .banner-container .para .compinfo {
+        font-size: 14px;
+    }
+    .boxes-services .box-item #img1 {
+        width: 50%;
+    }
+    .boxes-services .box-item #img2 {
+        width: 50%;
+    }
+    .boxes-services .box-item #img3 {
+        width: 50%;
+    }
+    .box-item .main-service--tittle {
+        font-size: 18px;
+    }
+    .box-item .main-service--content {
+        font-size: 14px;
     }
 }
 
@@ -75,40 +187,69 @@
         width: 45%;
         height: 45%;
     }
-    .para .compname p {
-        font-size: 35px;
+    .compname p {
+        width: 90%;
+        font-size: 28px;
     }
-    .banner-container .para {
+    .para {
         margin-left: 5%;
     }
-    .banner-container .para .compinfo {
+    .para .compinfo {
         width: 60%;
         font-size: 18px;
+        line-height: normal;
     }
     .content-services--container .boxes-services {
         width: 100%;
+        height: 70%;
     }
     .boxes-services .box-services--1 {
-        width: 90%;
+        width: 30%;
+        height: 80%;
     }
     .boxes-services .box-services--2 {
-        width: 100%;
+        width: 30%;
+        height: 85%;
         margin: 0 25px;
     }
     .box-item .box-content {
         width: 90%;
     }
     .box-item .main-service--tittle {
-        font-size: 20px;
+        font-size: 22px;
     }
     .box-item .main-service--content {
         font-size: 18px;
+        line-height: normal;
     }
     .boxes-services .box-services--3 {
-        width: 90%;
+        width: 30%;
+        height: 80%;
+    }
+    .boxes-services .box-item img {
+        margin-bottom: 20px;
+    }
+    .boxes-services .box-item #img1 {
+        width: 50%;
+        height: auto;
+    }
+    .boxes-services .box-item #img2 {
+        width: 50%;
+        height: auto;
+    }
+    .boxes-services .box-item #img3 {
+        width: 50%;
+        height: auto;
     }
     .customers-list img {
         width: 100%;
+    }
+    .course-container {
+        margin: 0 auto;
+    }
+    section .navigation li img {
+        width: 120px;
+        height: 85px;
     }
     figure.snip0016 {
         max-height: 169px;
@@ -139,42 +280,60 @@
         height: 45%;
     }
     .para .compname p {
+        width: 90%;
         font-size: 38px;
     }
     .banner-container .para {
         margin-left: 5%;
     }
     .banner-container .para .compinfo {
-        width: 60%;
+        width: 68%;
         font-size: 20px;
     }
     .content-services--container .boxes-services {
         width: 100%;
+        height: 70%;
     }
     .boxes-services .box-services--1 {
-        width: 80%;
+        width: 25%;
+        height: 80%;
     }
     .boxes-services .box-services--2 {
-        width: 90%;
+        width: 25%;
+        height: 85%;
         margin: 0 25px;
     }
     .box-item .box-content {
         width: 90%;
     }
     .box-item .main-service--tittle {
-        font-size: 20px;
+        font-size: 22px;
     }
     .box-item .main-service--content {
         font-size: 18px;
+        line-height: normal;
     }
     .boxes-services .box-services--3 {
-        width: 80%;
+        width: 25%;
+        height: 80%;
+    }
+    .boxes-services .box-item img {
+        margin-bottom: 20px;
+    }
+    .boxes-services .box-item #img1 {
+        width: 50%;
+        height: auto;
+    }
+    .boxes-services .box-item #img2 {
+        width: 50%;
+        height: auto;
+    }
+    .boxes-services .box-item #img3 {
+        width: 50%;
+        height: auto;
     }
     .customers-list img {
         width: 100%;
-    }
-    figure.snip0016 {
-        max-height: 169px;
     }
     figure.snip0016 h2 {
         font-weight: bold;
@@ -202,6 +361,7 @@
         height: 45%;
     }
     .para .compname p {
+        width: 90%;
         font-size: 50px;
     }
     .banner-container .para {
@@ -210,9 +370,6 @@
     .banner-container .para .compinfo {
         width: 60%;
         font-size: 20px;
-    }
-    figure.snip0016 {
-        max-height: 169px;
     }
     figure.snip0016 h2 {
         font-weight: bold;
