@@ -1,3 +1,3 @@
-function myFunction() {
-    window.location = "index.html";
-}
+$(document).ready(function() {
+
+});

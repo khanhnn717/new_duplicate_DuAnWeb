@@ -71,3 +71,30 @@
         height: 17rem;
     }
 }
+
+@media (-webkit-min-device-pixel-ratio: 1.25) {
+    content .map {
+        zoom: 0.8;
+    }
+    content .contact-container {
+        top: 65%;
+    }
+}
+
+@media (-webkit-min-device-pixel-ratio: 1.5) {
+    content .map {
+        zoom: 0.7;
+    }
+    content .contact-container {
+        top: 66%;
+    }
+}
+
+@media (-webkit-min-device-pixel-ratio: 1.75) {
+    content .map {
+        zoom: 0.6;
+    }
+    content .contact-container {
+        top: 65%;
+    }
+}

@@ -126,9 +126,9 @@
     }
 }
 
-@media (-webkit-device-pixel-ratio: 1.25) {
+@media (-webkit-min-device-pixel-ratio: 1.25) {
     * {
-        zoom: 0.97;
+        zoom: 0.96;
     }
     header .header-container {
         max-width: 83%;
@@ -141,9 +141,9 @@
     }
 }
 
-@media (-webkit-device-pixel-ratio: 1.5) {
+@media (-webkit-min-device-pixel-ratio: 1.5) {
     * {
-        zoom: 0.94;
+        zoom: 0.93;
     }
     header .header-container {
         max-width: 83%;
@@ -156,7 +156,7 @@
     }
 }
 
-@media (-webkit-device-pixel-ratio: 1.75) {
+@media (-webkit-min-device-pixel-ratio: 1.75) {
     * {
         zoom: 0.9;
     }
