@@ -26,7 +26,9 @@
         flex-direction: column;
         align-items: flex-start;
     }
-    body .contact-footer {}
+    body .contact-footer {
+        display: none;
+    }
 }
 
 @media only screen and (min-device-width: 520px) and (max-device-width: 739px) and (-webkit-min-device-pixel-ratio: 2) {
