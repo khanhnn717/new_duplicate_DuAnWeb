@@ -4,19 +4,19 @@
 }
 
 .banner .banner-container {
-    width: 100%;
+    width: 1200px;
     height: auto;
-    margin: 0 auto;
+    margin: 0 0 0 14%;
     position: absolute;
 }
 
 .para {
-    width: 72%;
-    margin: 7% auto 0;
+    width: 100%;
+    padding-top: 11%;
 }
 
 .compname p {
-    width: 75%;
+    width: 80%;
     font-size: 55px;
     font-weight: bold;
     color: #FD706B;
@@ -27,6 +27,10 @@
     height: auto;
     display: flex;
     justify-content: flex-end;
+}
+
+.banner .banner-img img {
+    width: 40%;
 }
 
 .para .compinfo {

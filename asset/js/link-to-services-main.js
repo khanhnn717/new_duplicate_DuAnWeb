@@ -49,7 +49,7 @@ $(document).ready(function() {
     })
 })
 $(document).ready(function() {
-    $('#link1').on('click', function() {
+    $('#link-1').on('click', function() {
         $('.banner-img--1').css('display', 'block');
         $('.banner-content--1').css('display', 'block');
         $('.bodycontent-1').css('display', 'block');
@@ -65,7 +65,7 @@ $(document).ready(function() {
         $('.bodycontent-3').css('display', 'none');
         $('#underline-3').css('display', 'none');
     })
-    $('#link2').on('click', function() {
+    $('#link-2').on('click', function() {
         $('.banner-img--1').css('display', 'none');
         $('.banner-content--1').css('display', 'none');
         $('.bodycontent-1').css('display', 'none');
@@ -81,7 +81,7 @@ $(document).ready(function() {
         $('.bodycontent-3').css('display', 'none');
         $('#underline-3').css('display', 'none');
     })
-    $('#link3').on('click', function() {
+    $('#link-3').on('click', function() {
         $('.banner-img--1').css('display', 'none');
         $('.banner-content--1').css('display', 'none');
         $('.bodycontent-1').css('display', 'none');
@@ -98,3 +98,8 @@ $(document).ready(function() {
         $('#underline-3').css('display', 'block');
     })
 })
+
+$(document).ready(function() {
+    var url = $(location).attr('href');
+    $('#this_url').html('<strong>' + url + '</strong>');
+});

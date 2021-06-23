@@ -13,6 +13,7 @@
     }
     .banner .banner-container {
         width: 100%;
+        margin: 0 auto;
     }
     .banner .banner-img img {
         width: 45%;
@@ -20,10 +21,12 @@
     }
     .para .compname p {
         font-size: 12px;
+        width: 100%;
     }
     .banner-container .para {
         margin-left: 3%;
         width: 66%;
+        padding-top: 8%;
     }
     .banner-container .para .compinfo {
         width: 72%;
@@ -183,19 +186,25 @@
 }
 
 @media only screen and (min-width: 740px) and (max-width: 1023px) and (-webkit-min-device-pixel-ratio: 2) {
+    .banner .banner-container {
+        width: 100%;
+        margin: 0 auto;
+    }
     .banner .banner-img img {
         width: 45%;
         height: 45%;
     }
     .compname p {
-        width: 90%;
+        width: 70%;
         font-size: 28px;
     }
     .para {
+        width: 95%;
         margin-left: 5%;
+        padding-top: 7%;
     }
     .para .compinfo {
-        width: 60%;
+        width: 52%;
         font-size: 18px;
         line-height: normal;
     }
@@ -275,19 +284,28 @@
 }
 
 @media only screen and (min-width: 1024px) and (max-width: 1439px) and (-webkit-min-device-pixel-ratio: 2) {
+    .banner .banner-container {
+        width: 100%;
+        margin: 0 auto;
+    }
     .banner .banner-img img {
         width: 45%;
         height: 45%;
     }
     .para .compname p {
-        width: 90%;
+        width: 70%;
         font-size: 38px;
+    }
+    .para {
+        width: 95%;
+        margin-left: 5%;
+        padding-top: 7%;
     }
     .banner-container .para {
         margin-left: 5%;
     }
     .banner-container .para .compinfo {
-        width: 68%;
+        width: 52%;
         font-size: 20px;
     }
     .content-services--container .boxes-services {
@@ -356,16 +374,24 @@
 }
 
 @media only screen and (min-width: 1440px) and (max-width: 1839px) and (-webkit-min-device-pixel-ratio: 2) {
+    .banner .banner-container {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .para .compname p {
+        width: 70%;
+        font-size: 38px;
+    }
+    .para {
+        width: 95%;
+        padding-top: 7%;
+    }
     .banner .banner-img img {
         width: 45%;
         height: 45%;
     }
-    .para .compname p {
-        width: 90%;
-        font-size: 50px;
-    }
     .banner-container .para {
-        margin-left: 5%;
+        margin-left: 14%;
     }
     .banner-container .para .compinfo {
         width: 60%;

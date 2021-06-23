@@ -1,0 +1,349 @@
+@media only screen and (min-device-width: 320px) and (max-device-width: 739px) and (-webkit-min-device-pixel-ratio: 2) {
+    .banner {
+        height: auto;
+        position: unset;
+    }
+    .banner-container .banner-content {
+        margin-top: 15px;
+        width: 70%;
+    }
+    .banner .banner-container .banner-flex {
+        height: auto;
+        position: unset;
+    }
+    .banner-container .banner-content .tittle {
+        font-size: 13px;
+        font-weight: bold;
+    }
+    .banner-container .banner-content .line-comp {
+        margin: 0 auto;
+        width: 70%;
+    }
+    .banner-container .banner-content table {
+        margin-bottom: 0px;
+    }
+    .banner-container .banner-content .line {
+        width: 80px;
+    }
+    .banner-container .banner-content .comp-name {
+        font-size: 11px;
+    }
+    .banner-container .banner-content .content {
+        font-size: 10px;
+    }
+    .service-box .service-box--container {
+        width: 100%;
+        margin: 0 auto;
+        justify-content: space-evenly;
+    }
+    .service-box {
+        width: 95%;
+        height: auto;
+        position: unset;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    .service-box--container .box-contain {
+        width: 92px;
+        height: 88px;
+        position: unset;
+    }
+    .service-box--container #outline-box1 {
+        display: none;
+    }
+    .service-box--container #service-box--1 {
+        width: 100%;
+        height: 100%;
+        position: unset;
+    }
+    .service-box--container #service-box--1 img {
+        width: 48px;
+        height: 48px;
+        margin-top: 10px;
+    }
+    .service-box--container .box-item p {
+        font-size: 10px;
+    }
+    .service-box--container #service-box--2 {
+        width: 92px;
+        height: 88px;
+        position: unset;
+    }
+    .service-box--container #service-box--2 img {
+        width: 48px;
+        height: 48px;
+        margin-top: 10px;
+    }
+    .service-box--container #outline-box3 {
+        display: none;
+    }
+    .service-box--container #service-box--3 {
+        width: 100%;
+        height: 100%;
+        position: unset;
+    }
+    .service-box--container #service-box--3 img {
+        width: 48px;
+        height: 48px;
+        margin-top: 10px;
+    }
+    .box-contain #service-box--1:hover {
+        width: 100%;
+        height: 100%;
+    }
+    .box-contain #service-box--1:hover>img {
+        width: 48px;
+        height: 48px;
+    }
+    .service-box--container #service-box--2:hover {
+        width: 92px;
+        height: 88px;
+        font-size: 10px;
+    }
+    .service-box--container #service-box--2:hover>img {
+        width: 48px;
+        height: 48px;
+    }
+    .service-box--container .box-item:hover>p {
+        font-size: 10px;
+    }
+    .box-contain #service-box--3:hover {
+        width: 100%;
+        height: 100%;
+    }
+    .box-contain #service-box--3:hover>img {
+        width: 48px;
+        height: 48px;
+    }
+    .box-contain .box-item:hover {
+        border-radius: 12px;
+        opacity: 1;
+    }
+    .box-contain .box-item:hover>p {
+        font-size: 10px;
+    }
+    .bodycontent-son .vertical-line {
+        margin-top: 0px;
+        height: 200px;
+    }
+    /* Service-1 */
+    .bodycontent-1 .vertical-line .horizon-line {
+        width: 100%;
+    }
+    .bodycontent-1 .bodycontent-son .vertical-line {
+        margin-top: 50px;
+    }
+    .bodycontent-1 .bodycontent-1--first {
+        width: 90%;
+        margin-bottom: 50px;
+    }
+    .bodycontent-1--second .param {
+        width: 90%;
+        margin: 70px auto;
+    }
+    .bodycontent-1--second .param .bold-text {
+        font-size: 18px;
+    }
+    .bodycontent-1--second .param-line {
+        display: none;
+    }
+    .bodycontent-1 .bodycontent-1--second {
+        height: auto;
+    }
+    .bodycontent-1--second .photo {
+        width: 90%;
+        height: auto;
+    }
+    .bodycontent-1--second .photo .sub-photo {
+        height: auto;
+        margin-top: 15px;
+    }
+    .param-flex .nomal-text {
+        font-size: 16px;
+    }
+    .photo .sub-photo .sub-photo1 img {
+        display: none;
+    }
+    .photo .sub-photo .sub-photo2 {
+        width: 100%;
+        height: auto;
+        position: unset;
+    }
+    .sub-photo .sub-photo2--param #sub-photo2--param2 {
+        margin: 0;
+    }
+    .sub-photo .sub-photo2 .param-line {
+        margin: 0%;
+        width: 90%;
+        margin: 10px auto;
+    }
+    .sub-photo .sub-photo2--line {
+        display: none;
+    }
+    .bodycontent-1--second .photo .main-photo {
+        margin: 50px auto
+    }
+    .photo .main-photo img {
+        width: 95%;
+    }
+    /* Service-2 */
+    .bodycontent-2--first .img-1 {
+        display: none;
+    }
+    .bodycontent-2--first .bodycontent-2--first_rightbox {
+        width: 100%;
+    }
+    .bodycontent-2--first_rightbox .bodycontent-2--first_rightbox__parambox {
+        width: 100%;
+        height: auto;
+        left: 0;
+    }
+    .rightbox_param__tittle {
+        width: 90%;
+        text-align: center;
+        margin: 15px auto;
+    }
+    .rightbox_param__content {
+        width: 85%;
+        font-size: 14px;
+    }
+    .bodycontent-2--second .bodycontent-2--second_contain {
+        width: 100%;
+    }
+    .line-text {
+        width: 90%;
+    }
+    .bodycontent-2--second .line {
+        width: 80%;
+    }
+    .third-tittle img {
+        width: 100%;
+    }
+    .third-container {
+        width: 90%;
+    }
+    .bodycontent-2--third .horizon-line {
+        margin-bottom: 50px;
+    }
+    .third-container .third-container--separate .side {
+        justify-content: space-around;
+    }
+    .third-tittle {
+        font-size: 25px;
+    }
+    .img-tittle {
+        font-size: 16px;
+        text-align: center;
+    }
+    .img-content {
+        font-size: 14px;
+        line-height: normal;
+        font-weight: normal;
+    }
+    .medical-box {
+        flex-direction: column;
+    }
+    .medical-left {
+        width: 100%;
+    }
+    .third-container .third-container--separate {
+        margin-top: 50px;
+    }
+    .army-param {
+        width: 80%;
+    }
+    /* Service-3 */
+    .steps-image {
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .steps-image img {
+        width: 95%;
+        height: auto;
+    }
+    .bodycontent-3--main .tittle-box {
+        width: 70%;
+    }
+    .bodycontent-3--main .tittle-box p {
+        font-size: 14px;
+    }
+    .bodycontent-3--main .content-container--main {
+        justify-content: space-evenly;
+    }
+    .content-container--main .content-box--left-right {
+        display: none;
+    }
+    .content-container--main .content-box--image {
+        width: 100px;
+        height: 75px;
+    }
+}
+
+@media only screen and (min-device-width: 520px) and (max-device-width: 739px) and (-webkit-min-device-pixel-ratio: 2) {
+    .banner-container .banner-content .tittle {
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .banner-container .banner-content table {
+        margin-top: 8%;
+    }
+    .banner-container .banner-content .comp-name {
+        font-size: 15px;
+    }
+    .banner-container .banner-content .content {
+        font-size: 14px;
+    }
+    .service-box .service-box--container {
+        width: 70%;
+    }
+    .service-box--container .box-contain {
+        width: 100px;
+        height: 96px;
+    }
+    .service-box--container #service-box--2 {
+        width: 100px;
+        height: 96px;
+    }
+    .box-contain #service-box--1:hover {
+        width: 100%;
+        height: 100%;
+    }
+    .box-contain #service-box--1:hover>img {
+        width: 48px;
+        height: 48px;
+    }
+    .service-box--container #service-box--2:hover {
+        width: 100px;
+        height: 96px;
+        font-size: 10px;
+    }
+    .service-box--container #service-box--2:hover>img {
+        width: 48px;
+        height: 48px;
+    }
+    .service-box--container .box-item:hover>p {
+        font-size: 10px;
+    }
+    .box-contain #service-box--3:hover {
+        width: 100%;
+        height: 100%;
+    }
+    .box-contain #service-box--3:hover>img {
+        width: 48px;
+        height: 48px;
+    }
+    .box-contain .box-item:hover {
+        border-radius: 12px;
+        opacity: 1;
+    }
+    .box-contain .box-item:hover>p {
+        font-size: 10px;
+    }
+    .content-container--main .content-box--image {
+        width: 150px;
+        height: 130px;
+    }
+}
