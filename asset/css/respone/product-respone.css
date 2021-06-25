@@ -440,8 +440,11 @@
     .product-tittle .product-tittle--container {
         width: 30%;
     }
+    .body-tittle .tittle {
+        text-align: center;
+    }
     .product-tittle--image .vertical-line {
-        height: 400px;
+        height: 450px;
     }
     .tittle-and-button {
         width: 95%;
@@ -450,5 +453,15 @@
         margin-left: 20px;
         display: flex;
         justify-content: center;
+    }
+    #product-box--1::after,
+    #product-box--1::before {
+        bottom: 0%;
+        left: unset;
+    }
+    #product-box--2::after,
+    #product-box--2::before {
+        bottom: 0%;
+        right: unset;
     }
 }
