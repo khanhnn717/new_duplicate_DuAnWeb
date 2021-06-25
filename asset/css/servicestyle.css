@@ -567,6 +567,10 @@ content {
     color: black;
 }
 
+.third-tittle img {
+    width: 100%;
+}
+
 .img-tittle {
     font-weight: bold;
     font-size: 25px;
@@ -662,10 +666,16 @@ content {
     margin-bottom: 75px;
 }
 
-.bodycontent-3 .steps-img {
+.bodycontent-3 .steps-image {
     display: flex;
     justify-content: center;
-    width: 60%;
+    width: 90%;
+    align-items: center;
+}
+
+.steps-image img {
+    width: 90%;
+    height: auto;
 }
 
 .bodycontent-3 .text-box .left-right--box {
